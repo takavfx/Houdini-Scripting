@@ -2,7 +2,7 @@
 @density;
 
 if (@density > chf("denscale")){
-    addpoint(geoself(), @P);
+    addpoint(geoself(), floor(@P));
 }
 
 @density = 0;
